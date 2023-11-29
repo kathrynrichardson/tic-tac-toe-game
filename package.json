@@ -1,14 +1,14 @@
 {
   "name": "rsbuild-react-js",
-	"homepage": "http://kathrynrichardson.github.io/tic-tac-toe-game",
+  "homepage": "http://kathrynrichardson.github.io/tic-tac-toe-game",
   "private": true,
   "version": "1.0.0",
   "scripts": {
     "dev": "rsbuild dev --open",
     "build": "rsbuild build",
     "preview": "rsbuild preview",
-		"predeploy" : "npm run build",
-		"deploy" : "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.2.0",
