@@ -3,4 +3,5 @@ import { pluginReact } from '@rsbuild/plugin-react';
 
 export default defineConfig({
   plugins: [pluginReact()],
+	base: '/tic-tac-toe-game/'
 });
